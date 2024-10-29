@@ -6,20 +6,41 @@ body {
   background-color: #121212;
   color: white;
   text-align: center;
-  margin: 0;
-  padding: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: background-color 0.5s ease; /* for colour transition */
+}
+
+.main-container {
+  margin: 0 auto;
+  max-width: 350px;
+}
+
+.toggle-button {
+  width: 25px;
+  height: 25px;
+}
+
+.pastel-blue {
+  background-color: #000080;
 }
 
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   text-align: left;
   margin-bottom: 20px;
+  padding-top: 20px;
+  gap: 20px;
 }
 
 h1 {
   font-size: 32px;
+  max-width: 60%;
+  font-weight: 300;
 }
 
 .subtitle-container {
@@ -41,7 +62,12 @@ button {
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
-  margin-top: 10px; /* spacing between subtitle and button */
+  margin-top: 10px;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.15);
 }
 
 .playlist {
