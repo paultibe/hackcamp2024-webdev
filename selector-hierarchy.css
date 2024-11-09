@@ -1,0 +1,23 @@
+/* element selector */
+p {
+  color: blue;
+}
+
+/* id selector */
+#unique {
+  color: red;
+}
+
+#unique {
+  color: yellow;
+}
+
+.example {
+  color: green;
+}
+
+p {
+  color: purple;
+}
+
+
