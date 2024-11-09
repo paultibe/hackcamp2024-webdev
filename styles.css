@@ -35,10 +35,9 @@ button {
   margin-top: 10px; /* spacing between subtitle and button */
 }
 
-
 .section-title {
   text-align: left;
-  padding-top: 50px;
+  margin-top: 70px;
 }
 
 .playlist {
